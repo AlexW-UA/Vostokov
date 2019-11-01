@@ -23,15 +23,11 @@ header {
     padding: 3px;
 }
 
-.padding {
-    color: #3B3F45;
-    font-size: 10px;
+main {
+    margin-top: 40px;
 }
-div {
-    height: 42px;
-    margin: 0 auto;
-}
-section {
+
+.hw {
     background-color: #88839E;
     color: white;
     width: 500px;
@@ -41,33 +37,55 @@ section {
     align-items: center;
     border-bottom: #88839E solid 5px;
     border-top: #88839E solid 5px;
+}
 
+.hw:nth-child(even) {
+    background: #7A7593;
+    border-bottom: #7A7593 solid 5px;
+    border-top: #7A7593;
+}
+
+.hw:hover {
+    border-bottom: #fff solid 5px;
+    border-top: white solid 5px;
+    background: #625E77;
+}
+
+.hw:active {
+    border-bottom: red solid 5px;
+    border-top: red solid 5px;
+    background: #625E77;
 }
 
 .hw label {
     display: block;
 }
+
 .hw input:checked + span {
     text-decoration: line-through;
 }
 
-.hw:hover
-    {border-bottom: #fff solid 5px;
-    border-top: white solid 5px;
+.hw>label>span>span {
+    font-size: 8px;
 
 }
+
+/*.hw:nth-child(even) {*/
+/*    border-bottom: #fff solid 5px;*/
+/*    border-top: white solid 5px;*/
+/*    background: #625E77;*/
+/*}*/
+
+
 footer {
     background-color: #4A4F56;
     color: #EB7E7F;
-    height: 42px;
     width: 500px;
-    margin: 0 auto;
-    display: flex;
+    margin: 0 auto;    /*вирівнює блок по-середені*/
+    padding: 3px;
     align-items: center;
     text-align: center;
+    margin-top: 40px;
 }
 
-footer p {
-    width: 500px;
-    alignment: center;
-}
+

@@ -1,0 +1,51 @@
+body {
+    background: #F1F1F1;
+    font-family: Arial SansSerif;
+}
+
+section {
+    width: 80%;
+    height: 120px;
+    margin: 0 auto;
+}
+
+div {
+    display: inline-block;
+    margin-top: 50px;
+}
+input {
+    background: inherit;
+    display: inline-block;
+    /*box-sizing: border-box;*/
+    width: 70%;
+    font-size: 90px;
+    font-weight: bold;
+    border: none;
+    margin: 0 auto;
+}
+
+::-webkit-input-placeholder {
+    color: #C2C2C2;
+}
+::-moz-placeholder {
+    color: #C2C2C2;
+}
+:-ms-input-placeholder {
+    color: #C2C2C2;
+}
+:-moz-placeholder {
+    color: #C2C2C2;
+}
+
+
+button {
+    background: inherit;
+    border: none;
+    display: inline-block;
+    margin: 0 auto;
+}
+
+button>img {
+    width: 60px;
+    height: 60px;
+}
